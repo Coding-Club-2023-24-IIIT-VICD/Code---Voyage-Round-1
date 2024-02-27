@@ -1,0 +1,24 @@
+You've been given a collection of N magical orbs, each labelled with a distinct number ranging from 0 to N - 1. Every orb possesses a mystical energy value represented by an array nums. Your goal is to carefully harness the power within all these orbs to maximise the total energy you can accumulate.
+
+Upon activating the energy within the ith orb, you gain power equal to nums[i - 1] * nums[i] * nums[i + 1]. If the indices i - 1 or i + 1 extend beyond the array bounds, consider the presence of an imaginary orb with the energy value 1. After gaining the power of ith orb remove it from the array.
+
+Your task is to devise an efficient algorithm to determine the maximum total energy that can be harnessed by strategically activating these magical orbs.
+
+Example : nums = {3,1,5,8}
+Expected output = 167
+Explanation :
+Activate orb at index i = 1 which has power 1. Your Power = 3 * 1 * 5 = 15. Array is now {3,5,8} Activate orb at index i = 1 which has power 5. Power += 3*5*8. Now your power is 15 + 120 = 135. Array is now {3,8} Activate orb at index i = 0 which has power 3. Power += 1*3*8. Now your power is 135 + 24 = 159. Array is now {8} Activate the last orb which has power 8. Power += 1*8*1. Now your power is 159 + 8 = 167. Array is now empty. So final answer is 167.
+
+Input Format
+
+First line of input contains total number of orbs N.
+Second line of input contains total N integers.
+
+Constraints
+
+0 <= N <= 300
+0 <= nums[i] <= 500
+
+Output Format
+
+Output contains only one Integer that represents maximum value of your power.

@@ -1,0 +1,19 @@
+In the bustling atmosphere of IIITV-ICD, the organizers were gearing up for the tech fest "Horizon." Maya, a skilled coder among them, was given a task to digitally capture the fest's anticipation.
+
+Armed with an array named "nums" representing fest elements, Maya crafted a program. The goal was to generate a new array where each element at index i reflected the cumulative excitement. This was calculated by summing all odd-numbered fest elements up to ith index.
+
+Maya's code effectively painted a digital picture, illustrating the dynamic energy leading up to Horizon. The resulting array became a clear representation of the fest's anticipation, adding a touch of technological marvel to the preparations.
+
+Input Format
+
+First line contains integer N - total length of the array.
+Second line contains the array nums of length N.
+
+Constraints
+
+0 <= N <= 10^7
+0 <= nums[i] <= 10^8
+
+Output Format
+
+Print a array consisting total N elements.

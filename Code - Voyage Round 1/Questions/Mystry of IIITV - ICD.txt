@@ -1,0 +1,21 @@
+In the enchanting realm of IIITV-ICD, a sacred array of n mystical numbers holds the key to ancient secrets. This array is represented by an array of integers known as "nums."
+
+As a skilled array magician within IIITV-ICD, you possess the extraordinary power to perform a series of operations. Each operation empowers you to select a magical subarray within the array and replace it with the sum of its enchanted elements. For instance, if the array is initially imbued with [1, 3, 5, 6], and you choose the subarray [3, 5], the array undergoes a transformation, resonating with newfound energy, becoming [1, 8, 6].
+
+Now, your quest is to unravel the ancient mysteries of IIITV-ICD's array and determine the maximum length of a non-decreasing array that can be conjured through these magical operations. A non-decreasing array is one where every element is greater than or equal to its predecessor.
+
+Total number of operations can be zero.
+
+Input Format
+
+First line of input contains total length of array N.
+Second line contains N integers.
+
+Constraints
+
+0 <= N <= 10^6
+0 <= nums[i] <= 10^5
+
+Output Format
+
+Print single integer which denotes maximum length of non decreasing array after some operations.

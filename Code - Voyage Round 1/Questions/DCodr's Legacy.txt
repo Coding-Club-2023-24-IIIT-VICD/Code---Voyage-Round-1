@@ -1,0 +1,19 @@
+In IIITV-ICD's coding enclave, Dcodr faced a challenge: find the shortest subarray summing to a target.If many subarray exists,return the last one.This moment echoed Dcodr's legacy — a tale of coding precision and relentless pursuit of excellence, where algorithms dance and success echoes through every line of code, creating a symphony of accomplishment.
+
+If such a subarray does not exist,print nothing.
+
+Input Format
+
+The first line contains the size of the array, N.
+The second line contains the sum, S.
+The third line contains N positive integers.
+
+Constraints
+
+0 <= N <= 10^7
+0 <= S <= 10^5
+0 <= nums[i] <= 10^5
+
+Output Format
+
+Print a sub-array.
